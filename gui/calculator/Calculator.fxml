@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="249.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.calculator.CalculationController">
+   <children>
+      <TextField fx:id="display" editable="false" layoutX="8.0" layoutY="14.0" prefHeight="49.0" prefWidth="233.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Button fx:id="clear" layoutX="14.0" layoutY="78.0" mnemonicParsing="false" onAction="#compute" prefHeight="38.0" prefWidth="85.0" text="CLEAR">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="delete" layoutX="129.0" layoutY="78.0" mnemonicParsing="false" onAction="#compute" prefHeight="38.0" prefWidth="92.0" text="DELETE">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="komma" layoutX="21.0" layoutY="141.0" mnemonicParsing="false" onAction="#compute" prefHeight="38.0" prefWidth="36.0" text=".">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="gleich" layoutX="72.0" layoutY="141.0" mnemonicParsing="false" onAction="#compute" text="=">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="klammerauf" layoutX="127.0" layoutY="141.0" mnemonicParsing="false" onAction="#compute" prefHeight="38.0" prefWidth="33.0" text="(">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="klammerzu" layoutX="185.0" layoutY="141.0" mnemonicParsing="false" onAction="#compute" prefHeight="38.0" prefWidth="36.0" text=")">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="sieben" layoutX="21.0" layoutY="200.0" mnemonicParsing="false" onAction="#compute" prefWidth="24.0" text="7">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="acht" layoutX="73.0" layoutY="200.0" mnemonicParsing="false" onAction="#compute" text="8">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="neun" layoutX="125.0" layoutY="200.0" mnemonicParsing="false" onAction="#compute" text="9">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="plus" layoutX="185.0" layoutY="194.0" mnemonicParsing="false" onAction="#compute" text="+">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="vier" layoutX="21.0" layoutY="251.0" mnemonicParsing="false" onAction="#compute" text="4">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="fuenf" layoutX="73.0" layoutY="251.0" mnemonicParsing="false" onAction="#compute" text="5">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="drei" layoutX="125.0" layoutY="308.0" mnemonicParsing="false" onAction="#compute" text="3">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="zwei" layoutX="73.0" layoutY="308.0" mnemonicParsing="false" onAction="#compute" text="2">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="eins" layoutX="21.0" layoutY="308.0" mnemonicParsing="false" onAction="#compute" text="1">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="zero" layoutX="22.0" layoutY="360.0" mnemonicParsing="false" onAction="#compute" prefHeight="38.0" prefWidth="135.0" text="0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="sechs" layoutX="125.0" layoutY="251.0" mnemonicParsing="false" onAction="#compute" text="6">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="minus" layoutX="184.0" layoutY="251.0" mnemonicParsing="false" onAction="#compute" prefHeight="38.0" prefWidth="36.0" text="-">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="mal" layoutX="183.0" layoutY="308.0" mnemonicParsing="false" onAction="#compute" prefHeight="38.0" prefWidth="36.0" text="*">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="geteilt" layoutX="184.0" layoutY="360.0" mnemonicParsing="false" onAction="#compute" prefHeight="38.0" prefWidth="36.0" text="/">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
