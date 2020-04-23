@@ -1,0 +1,15 @@
+Regular expressions
+. Wildcard
+\d nur eine einsellige Zahl ist zulässig (z.B.: 2)
+\D nur ein einziges zeichen zulässig, aber keine Zahl (z.B.: r)
+[1-9][0-9]*
+{0,7} von 0 bis 7
+[1-9]+ 1 bis unendlich
+^A	nicht zulässiges zeichen
+[^öäü] nicht zulässige zeichen
+\\.
+String regEX = "^[A-Z][a-z]*";
+String test = "Hallo Welt";
+test.matches(regEX);
+
+$5 prüft ob die 5 am ende steht
